@@ -1,0 +1,41 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  color: white;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.productos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
